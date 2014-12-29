@@ -30,7 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Fixie">
+    <Reference Include="Fixie, Version=0.0.1.231, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Fixie.0.0.1.231\lib\net45\Fixie.dll</HintPath>
     </Reference>
     <Reference Include="Shouldly">

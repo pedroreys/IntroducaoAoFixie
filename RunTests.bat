@@ -1,0 +1,1 @@
+CALL tools\fixie\Fixie.Console.exe src\FixieCalculator.Tests\bin\Debug\FixieCalculator.Tests.dll
