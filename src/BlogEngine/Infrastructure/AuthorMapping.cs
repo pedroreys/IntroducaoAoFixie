@@ -23,12 +23,18 @@
 
     public class BlogPostMapping : EntityMapping<BlogPost>
     {
-        
+        public BlogPostMapping()
+        {
+            Property(x => x.Content).HasColumnName("PostContent");
+        }
     }
 
     public class CommentMapping : EntityMapping<Comment>
     {
-        
+        public CommentMapping()
+        {
+            Property(x => x.Content).HasColumnName("CommentContent");
+        }
     }
     
 }

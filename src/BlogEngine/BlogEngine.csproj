@@ -59,17 +59,21 @@
     <Compile Include="Domain\Blog.cs" />
     <Compile Include="Domain\BlogPost.cs" />
     <Compile Include="Domain\Comment.cs" />
+    <Compile Include="Domain\CommentService.cs" />
     <Compile Include="Domain\Entity.cs" />
     <Compile Include="Infrastructure\AuthorMapping.cs" />
     <Compile Include="Infrastructure\BlogEngineContext.cs" />
     <Compile Include="Infrastructure\BlogEngineRegistry.cs" />
     <Compile Include="Infrastructure\DisposableAction.cs" />
+    <Compile Include="Infrastructure\ForeignKeyNamingConvention.cs" />
     <Compile Include="Infrastructure\IoC.cs" />
     <Compile Include="Infrastructure\SystemTime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

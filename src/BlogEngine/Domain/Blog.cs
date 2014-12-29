@@ -1,7 +1,6 @@
 ﻿namespace BlogEngine.Domain
 {
     using System.Collections.Generic;
-    using System.Security.Cryptography;
 
     public class Blog : Entity
     {
@@ -10,7 +9,7 @@
             Posts = new List<BlogPost>();
         }
 
-        public string Name { get; set; }
+        public string Title { get; set; }
 
         public virtual List<BlogPost> Posts { get; protected set; }
 

@@ -5,14 +5,8 @@
 
     public class BlogTests
     {
-        public void Should_add_blogpost_to_blog()
+        public void Should_add_blogpost_to_blog(Blog blog, Author author)
         {
-            var blog = new Blog();
-            var author = new Author()
-            {
-                Name = "Fred Flintstone"
-            };
-
             const string title = "Blog post Title";
             const string description = "Blog Post Description";
             const string content = "This is my blog content";
