@@ -11,7 +11,8 @@
         {
             var fixture = InitializeAutoFixture();
             Classes
-                .InTheSameNamespaceAs<IntegrationTestsConvention>();
+                .InTheSameNamespaceAs<IntegrationTestsConvention>()
+                .NameEndsWith("Tests");
 
             ClassExecution
                 .UsingFactory(t => new SpecimenContext(fixture).Resolve(t));
