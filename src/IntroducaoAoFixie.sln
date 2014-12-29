@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixieCalculator.Tests", "Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fixie.Samples", "Fixie.Samples\Fixie.Samples.csproj", "{C7032636-BD20-479B-8A2B-E488B020517F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine", "BlogEngine\BlogEngine.csproj", "{34123401-57DF-414E-AD44-6DE15A7CB44F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngineTests", "BlogEngineTests\BlogEngineTests.csproj", "{980C4DA5-D518-4932-AC0B-31AB43D32ADF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C7032636-BD20-479B-8A2B-E488B020517F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7032636-BD20-479B-8A2B-E488B020517F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7032636-BD20-479B-8A2B-E488B020517F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34123401-57DF-414E-AD44-6DE15A7CB44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34123401-57DF-414E-AD44-6DE15A7CB44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34123401-57DF-414E-AD44-6DE15A7CB44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34123401-57DF-414E-AD44-6DE15A7CB44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980C4DA5-D518-4932-AC0B-31AB43D32ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980C4DA5-D518-4932-AC0B-31AB43D32ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980C4DA5-D518-4932-AC0B-31AB43D32ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980C4DA5-D518-4932-AC0B-31AB43D32ADF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
